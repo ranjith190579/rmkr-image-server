@@ -27,7 +27,7 @@ PUBLIC_URL = os.getenv(
     "http://localhost:3000"
 ).rstrip("/")
 
-PORT = int(os.getenv("PORT", "3000"))
+PORT = int(os.getenv("PORT", "10000"))
 
 # Maximum upload size = 10 MB
 MAX_FILE_SIZE = 10 * 1024 * 1024
